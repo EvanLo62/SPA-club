@@ -249,6 +249,7 @@ footer p {
         height: 300px;
         margin: 60px auto 15px;
         width: 92%;
+        align-content: center;
     }
 
     .carousel-item {
@@ -259,6 +260,7 @@ footer p {
         padding: 20px 15px;
         margin: 15px auto;
         width: 92%;
+        align-content: center;
     }
 
     #main-info h1 {
@@ -275,6 +277,7 @@ footer p {
         margin-top: 15px;
         padding: 15px 0;
         text-align: center;
+        align-content: center;
     }
 
     footer p {
