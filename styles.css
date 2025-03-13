@@ -215,7 +215,8 @@ footer p {
 
     .carousel {
         height: 400px;
-        margin: 70px auto 20px;
+        margin: 70px 15px 20px;
+        width: calc(100% - 30px);
     }
 
     .carousel-item {
@@ -223,23 +224,39 @@ footer p {
     }
 
     #main-info {
-        padding: 30px 20px;
-        margin: 20px;
+        padding: 30px 15px;
+        margin: 15px;
+        width: calc(100% - 30px);
+        max-width: none;
     }
 
     #main-info h1 {
         font-size: 2em;
+    }
+
+    footer {
+        margin-top: 15px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
 
 @media screen and (max-width: 480px) {
     .carousel {
         height: 300px;
-        margin: 60px auto 15px;
+        margin: 60px 10px 15px;
+        width: calc(100% - 20px);
     }
 
     .carousel-item {
         height: 300px;
+    }
+
+    #main-info {
+        padding: 20px 10px;
+        margin: 10px;
+        width: calc(100% - 20px);
     }
 
     #main-info h1 {
@@ -250,5 +267,10 @@ footer p {
         padding: 10px;
         width: 40px;
         height: 40px;
+    }
+
+    footer {
+        margin-top: 10px;
+        padding: 15px 10px;
     }
 }
